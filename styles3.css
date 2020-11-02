@@ -1,0 +1,37 @@
+
+/**
+ * 还需要再改一下
+ */
+
+ pre:hover{
+   box-shadow: 0px 0px 40px 5px rgba(255,255,255,0.4);
+ }
+
+ #skip-animation, #pause-resume {
+   display: none;
+ }
+
+/**
+ *  loading
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ */
+
+.value {
+  text-shadow: 0px 15px 1px white;
+}
+
+/**
+ *
+ *
+ * 以上。
+ *
+ *
+ */
+
+

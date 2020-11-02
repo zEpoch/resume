@@ -1,0 +1,108 @@
+/**
+ *
+ *
+ *
+ *  这是一份简历
+ *
+ *
+ *
+ *
+ *
+ */
+
+/**
+ *  动画效果…
+ */
+
+* {
+  -webkit-transition: all 1s;
+}
+
+/**
+ * 
+ *
+ *  取消黑白模式
+ *
+ */
+
+html {
+  background: rgb(63, 82, 99);
+}
+
+/***
+ * 稍等...
+ */
+
+pre, a {
+  color: white;
+}
+
+/**
+ * 进入防闪模式，
+ *
+ * 界面过大。
+ *
+ * 需要做个个界面。
+ */
+
+pre:not(:empty) {
+  overflow: auto;
+  background: rgb(48, 48, 48);
+  border: 1px solid #ccc;
+  max-height: 45vh;
+  width: 49%;
+  font-size: 14px;
+  font-family: monospace;
+  padding: 1vh 0.5vw;
+  box-shadow: -4px 4px 2px 0 rgba(0,0,0,0.3);
+  white-space: pre-wrap;
+  outline: 0;
+  margin: 1vh 0.5vw;
+}
+
+/**
+ * 移至页面右侧
+ *
+ */
+
+#style-text {
+  -webkit-transform: translateX(95%);
+  position: absolute;
+}
+
+/**
+ * 涂上五颜六色的梦
+ *
+ */
+
+.comment       { color: #857F6B; font-style: italic; }
+.selector      { color: #E69F0F; }
+.selector .key { color: #64D5EA; }
+.key           { color: #64D5EA; }
+.value         { color: #BE84F2; }
+.value.px      { color: #F92772; }
+
+/**
+ *
+ * 加上立体感
+ */
+
+body {
+  -webkit-perspective: 1000px;
+}
+
+#style-text {
+  -webkit-transform: translateX(98.5%) rotateY(-10deg);
+  -webkit-transform-origin: right;
+  max-height: 93.1vh;
+}
+
+/**
+ *
+ * 请将注意力转移到左上方
+ */
+
+pre:not(#style-text) {
+  -webkit-transform: rotateY(10deg);
+  -webkit-transform-origin: left;
+}
