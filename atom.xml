@@ -1,0 +1,525 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>周涛的站点</title>
+  <icon>https://www.zepoch.cc/icon.png</icon>
+  <subtitle>记录我的工作学习与生活</subtitle>
+  <link href="https://www.zepoch.cc/atom.xml" rel="self"/>
+  
+  <link href="https://www.zepoch.cc/"/>
+  <updated>2022-04-11T05:02:43.884Z</updated>
+  <id>https://www.zepoch.cc/</id>
+  
+  <author>
+    <name>Zhou Tao</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>关于 pandoc exited with code null 的解决方案</title>
+    <link href="https://www.zepoch.cc/2022/2213706848.html"/>
+    <id>https://www.zepoch.cc/2022/2213706848.html</id>
+    <published>2022-04-09T12:19:55.000Z</published>
+    <updated>2022-04-11T05:02:43.884Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;今天在写博客的时候，渲染的时候发生了一些问题，主要报错如下&lt;/p&gt;
+&lt;pre class=&quot;line-numbers language-bash&quot; data-language=&quot;bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;ERROR&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;hexo-renderer-pandoc&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt; pandoc exited with code null.&lt;span aria-hidden=&quot;true&quot; class=&quot;line-numbers-rows&quot;&gt;&lt;span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;看了一些博主的方案，也进行了尝试，但是结果并不是很好，但是自己经过摸索还是解决了，便是来写一下相关的解决方案。&lt;/p&gt;</summary>
+    
+    
+    
+    
+    <category term="Hexo" scheme="https://www.zepoch.cc/tags/Hexo/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>tensorflow入门</title>
+    <link href="https://www.zepoch.cc/2022/3652601009.html"/>
+    <id>https://www.zepoch.cc/2022/3652601009.html</id>
+    <published>2022-04-09T04:16:40.000Z</published>
+    <updated>2022-04-09T08:35:58.073Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;首先是 tensorflow 及其相关包的安装，作者本人使用的是
+miniconda，安装命令如下&lt;/p&gt;
+&lt;pre class=&quot;line-numbers language-bash&quot; data-language=&quot;bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;conda create -n &lt;span class=&quot;token string&quot;&gt;&#39;tensorflow&#39;&lt;/span&gt;
+activate tensorflow
+conda &lt;span class=&quot;token function&quot;&gt;install&lt;/span&gt; -c conda-forge tensorflow
+conda &lt;span class=&quot;token function&quot;&gt;install&lt;/span&gt; scikit-learn
+conda &lt;span class=&quot;token function&quot;&gt;install&lt;/span&gt; -c conda-forge pandas
+conda &lt;span class=&quot;token function&quot;&gt;install&lt;/span&gt; -c conda-forge matplotlib
+conda &lt;span class=&quot;token function&quot;&gt;install&lt;/span&gt; -c conda-forge seaborn&lt;span aria-hidden=&quot;true&quot; class=&quot;line-numbers-rows&quot;&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;</summary>
+    
+    
+    
+    
+    <category term="tensorflow" scheme="https://www.zepoch.cc/tags/tensorflow/"/>
+    
+    <category term="Python" scheme="https://www.zepoch.cc/tags/Python/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>关于 torch.nn.CrossEntropyLoss 的计算</title>
+    <link href="https://www.zepoch.cc/2022/47935670.html"/>
+    <id>https://www.zepoch.cc/2022/47935670.html</id>
+    <published>2022-03-28T03:09:45.000Z</published>
+    <updated>2022-03-28T03:55:36.798Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;torch中计算损失函数时，会使用到名为 CrossEntropyLoss
+的交叉熵损失函数，这个函数的公式为： &lt;span class=&quot;math display&quot;&gt;\[
+\begin{aligned}
+loss(x,class)&amp;amp;=−log\frac{∑_jexp(x[j])}{exp(x[class])}\\
+&amp;amp;= −x[class] + log(∑_jexp(x[j]))
+\end{aligned}
+\]&lt;/span&gt;&lt;/p&gt;</summary>
+    
+    
+    
+    
+    <category term="torch" scheme="https://www.zepoch.cc/tags/torch/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>关于 Couesrea 奖学金的申请</title>
+    <link href="https://www.zepoch.cc/2022/719072326.html"/>
+    <id>https://www.zepoch.cc/2022/719072326.html</id>
+    <published>2022-03-25T02:09:03.000Z</published>
+    <updated>2022-03-25T02:12:58.566Z</updated>
+    
+    
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;&lt;a
+href=&quot;https://www.coursera.org/&quot;&gt;Coursera&lt;/a&gt;是免费大型公开在线课程项目，由美国斯坦福大学两名计算机科学教授创办。旨在同世界顶尖大学合作，在线提供免费的网络公开课程。Coursera的首批合作院校包括斯坦福大学、密歇根大学、普林斯顿大学、宾夕法尼亚大学等美国名校。
+Coursera与另外1达成合作协议。其课程报名学生突破了150万，来自全球190多个国家和地区，而网站注册学生为68万。注册124门课程。目前新增的大学包括了佐治亚理工学院、杜克大学、华盛顿大学、加州理工学院、莱斯大学、爱丁堡大学、多伦多大学、洛桑联邦理工学院
+-
+洛桑（瑞士）、约翰·霍普金斯大学公共卫生学院、加州大学旧金山分校、伊利诺伊大学厄巴纳
+- 香槟分校以及弗吉尼亚大学。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;除了免费课程之外还有一些付费性质的课程，但是也会有相应的课程福利，比如提供运算的服务器之类的。但是费用可能较为高。毕竟是学生嘛，Coursera也是提供了一套完整的助学金申请方案，可以用于助学金申请。&lt;/p&gt;</summary>
+    
+    
+    
+    
+    <category term="Coursera" scheme="https://www.zepoch.cc/tags/Coursera/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>手写Promise</title>
+    <link href="https://www.zepoch.cc/2022/2502972644.html"/>
+    <id>https://www.zepoch.cc/2022/2502972644.html</id>
+    <published>2022-01-28T14:04:26.000Z</published>
+    <updated>2022-01-30T14:57:36.555Z</updated>
+    
+    
+    <summary type="html">&lt;h2 id=&quot;初始结构&quot;&gt;初始结构&lt;/h2&gt;
+&lt;p&gt;我们在 &lt;code&gt;New&lt;/code&gt; 一个 &lt;code&gt;Promise&lt;/code&gt;
+里的时候肯定是需要传入参数的，不然这个实例用处不大，而这个参数我们知道是一个函数，而且当我们传入这个函数参数的时候，这个函数参数会被自动执行。
+因此我们需要在类的 &lt;code&gt;constructor&lt;/code&gt; 里面添加一个参数，这里就用
+&lt;code&gt;func&lt;/code&gt;
+来作为形参，并且执行一下这个参数，接下来需要为这个函数参数传入他自己的参数，也就是
+&lt;code&gt;resolve&lt;/code&gt; 和 &lt;code&gt;reject&lt;/code&gt;，原生的 Promise 里面可以传入
+&lt;code&gt;resolve&lt;/code&gt;，&lt;code&gt;reject&lt;/code&gt;
+两个参数，那么我们也得允许手写这边可以传入这两个参数。&lt;/p&gt;
+&lt;pre class=&quot;line-numbers language-javascript&quot; data-language=&quot;javascript&quot;&gt;&lt;code class=&quot;language-javascript&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;token class-name&quot;&gt;Promise&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;&amp;#123;&lt;/span&gt;
+    &lt;span class=&quot;token function&quot;&gt;constructor&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token parameter&quot;&gt;func&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;&amp;#123;&lt;/span&gt;
+        &lt;span class=&quot;token function&quot;&gt;func&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;resolve&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;reject&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;token punctuation&quot;&gt;&amp;#125;&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;&amp;#125;&lt;/span&gt;&lt;span aria-hidden=&quot;true&quot; class=&quot;line-numbers-rows&quot;&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;</summary>
+    
+    
+    
+    
+    <category term="JavaScript" scheme="https://www.zepoch.cc/tags/JavaScript/"/>
+    
+    <category term="Promise" scheme="https://www.zepoch.cc/tags/Promise/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>关于npm和yarn</title>
+    <link href="https://www.zepoch.cc/2022/3868603507.html"/>
+    <id>https://www.zepoch.cc/2022/3868603507.html</id>
+    <published>2022-01-26T09:55:28.000Z</published>
+    <updated>2022-03-19T17:25:38.651Z</updated>
+    
+    
+    <summary type="html">&lt;h2 id=&quot;什么是-npm&quot;&gt;什么是 NPM&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;NPM（全称Node Package Manager，即node包管理器）&lt;br /&gt;
+&lt;/li&gt;
+&lt;li&gt;是Node.js默认的、以JavaScript编写的软件包管理系统&lt;/li&gt;
+&lt;li&gt;npm 来分享和使用代码已经成了前端的标配&lt;/li&gt;
+&lt;li&gt;官网： &lt;a href=&quot;https://www.npmjs.com&quot;
+class=&quot;uri&quot;&gt;https://www.npmjs.com&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;npm被全球超过1100万开发人员所依赖&lt;/li&gt;
+&lt;li&gt;拥有超过一百万个软件包，是世界上最大的软件注册表 &lt;img
+src=&quot;https://cdn.jsdelivr.net/gh/zEpoch/imageHome@main/blog/关于npm和yarn/20220126175706.png&quot;
+alt=&quot;20220126175706&quot; /&gt;&lt;/li&gt;
+&lt;/ul&gt;</summary>
+    
+    
+    
+    
+    <category term="npm" scheme="https://www.zepoch.cc/tags/npm/"/>
+    
+    <category term="yarn" scheme="https://www.zepoch.cc/tags/yarn/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>关于Git</title>
+    <link href="https://www.zepoch.cc/2022/3494410286.html"/>
+    <id>https://www.zepoch.cc/2022/3494410286.html</id>
+    <published>2022-01-24T15:12:39.000Z</published>
+    <updated>2022-01-24T15:14:24.802Z</updated>
+    
+    
+    <summary type="html">&lt;h2 id=&quot;版本控制&quot;&gt;版本控制&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;版本控制（Revision
+control）是一种在开发的过程中用于管理我们对文件、目录或工程等内容的修改历史，方便查看更改历史记录，备份以便恢复以前的版本的软件工程技术。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;实现跨区域多人协同开发&lt;/li&gt;
+&lt;li&gt;追踪和记载一个或者多个文件的历史记录&lt;/li&gt;
+&lt;li&gt;组织和保护你的源代码和文档&lt;/li&gt;
+&lt;li&gt;统计工作量&lt;/li&gt;
+&lt;li&gt;并行开发、提高开发效率&lt;/li&gt;
+&lt;li&gt;跟踪记录整个软件的开发过程&lt;/li&gt;
+&lt;li&gt;减轻开发人员的负担，节省时间，同时降低人为错误&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;简单说就是用于管理多人协同开发项目的技术。</summary>
+    
+    
+    
+    
+    <category term="Git" scheme="https://www.zepoch.cc/tags/Git/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>关于 this 指向的理解</title>
+    <link href="https://www.zepoch.cc/2022/1449894788.html"/>
+    <id>https://www.zepoch.cc/2022/1449894788.html</id>
+    <published>2022-01-21T06:45:04.000Z</published>
+    <updated>2022-03-19T17:25:57.115Z</updated>
+    
+    
+    <summary type="html">&lt;h2 id=&quot;函数内-this-的指向&quot;&gt;函数内 this 的指向&lt;/h2&gt;
+&lt;p&gt;这些 this 的指向，是当我们调用函数的时候确定的。
+调用方式的不同决定了this 的指向不同一般指向我们的调用者. &lt;img
+src=&quot;https://cdn.jsdelivr.net/gh/zEpoch/imageHome@main/blog/关于%20this%20指向的理解/20220121145731.png&quot;
+alt=&quot;20220121145731&quot; /&gt;</summary>
+    
+    
+    
+    
+    <category term="JavaScript" scheme="https://www.zepoch.cc/tags/JavaScript/"/>
+    
+    <category term="this" scheme="https://www.zepoch.cc/tags/this/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>关于 AJAX 的理解</title>
+    <link href="https://www.zepoch.cc/2022/745948327.html"/>
+    <id>https://www.zepoch.cc/2022/745948327.html</id>
+    <published>2022-01-19T05:44:42.000Z</published>
+    <updated>2022-01-19T06:27:10.819Z</updated>
+    
+    
+    <summary type="html">&lt;h2 id=&quot;原生ajax&quot;&gt;原生AJAX&lt;/h2&gt;
+&lt;h3 id=&quot;ajax-简介&quot;&gt;1.1 AJAX 简介&lt;/h3&gt;
+&lt;p&gt;AJAX 全称为Asynchronous JavaScript And XML，就是异步的 JS 和 XML。
+通过AJAX
+可以在浏览器中向服务器发送异步请求，最大的优势：无刷新获取数据。 AJAX
+不是新的编程语言，而是一种将现有的标准组合在一起使用的新方式。</summary>
+    
+    
+    
+    
+    <category term="JavaScript" scheme="https://www.zepoch.cc/tags/JavaScript/"/>
+    
+    <category term="jQuery" scheme="https://www.zepoch.cc/tags/jQuery/"/>
+    
+    <category term="AJAX" scheme="https://www.zepoch.cc/tags/AJAX/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>jQuery 入门</title>
+    <link href="https://www.zepoch.cc/2022/2202928548.html"/>
+    <id>https://www.zepoch.cc/2022/2202928548.html</id>
+    <published>2022-01-15T11:49:01.000Z</published>
+    <updated>2022-01-15T12:03:14.278Z</updated>
+    
+    
+    <summary type="html">&lt;h1 id=&quot;jquery-入门&quot;&gt;jQuery 入门&lt;/h1&gt;
+&lt;h2 id=&quot;jquery-概述&quot;&gt;jQuery 概述&lt;/h2&gt;
+&lt;h2 id=&quot;javascript-库&quot;&gt;JavaScript 库&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;JavaScript库：即
+library，是一个封装好的特定的集合(方法和函数)。从封装一大堆函数的角度理解库，就是在这个库中，封装了很多预先定义好的函数在里面，比如动画animate、hide、show，比如获取元素等。&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;简单理解∶就是一个JS文件，里面对我们原生js代码进行了封装，存放到里面。这样我们可以快速高效的使用这些封装好的功能了。&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;比如jQuery，就是为了快速方便的操作DOM，里面基本都是函数(方法)。&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;常见的 JavaScript 库&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;jQuery&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Prototype&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;YUI&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Ext JS&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;移动端的 zepto&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;</summary>
+    
+    
+    
+    
+    <category term="JavaScript" scheme="https://www.zepoch.cc/tags/JavaScript/"/>
+    
+    <category term="jQuery" scheme="https://www.zepoch.cc/tags/jQuery/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>PC&amp;移动端网页特效</title>
+    <link href="https://www.zepoch.cc/2022/4031264998.html"/>
+    <id>https://www.zepoch.cc/2022/4031264998.html</id>
+    <published>2022-01-15T11:44:56.000Z</published>
+    <updated>2022-01-15T12:00:38.095Z</updated>
+    
+    
+    <summary type="html">&lt;h1 id=&quot;pc-端网页特效&quot;&gt;PC 端网页特效&lt;/h1&gt;
+&lt;h2 id=&quot;元素偏移量-offset-系列&quot;&gt;元素偏移量 offset 系列&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;h3 id=&quot;offset-概述&quot;&gt;offset 概述&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;offset 翻译过来就是偏移量，我们使用 offset
+系列相关属性可以动态的得到该元素的位置（偏移）、大小等&lt;/li&gt;
+&lt;li&gt;获得元素距离带有定位父元素得到位置&lt;/li&gt;
+&lt;li&gt;获得元素自身的大小（宽度高度）&lt;/li&gt;
+&lt;li&gt;注意：返回的数值都不带单位</summary>
+    
+    
+    
+    
+    <category term="JavaScript" scheme="https://www.zepoch.cc/tags/JavaScript/"/>
+    
+    <category term="前端" scheme="https://www.zepoch.cc/tags/%E5%89%8D%E7%AB%AF/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>关于高级事件和 BOM 浏览器对象类型</title>
+    <link href="https://www.zepoch.cc/2022/257512457.html"/>
+    <id>https://www.zepoch.cc/2022/257512457.html</id>
+    <published>2022-01-07T13:18:45.000Z</published>
+    <updated>2022-01-07T15:12:14.729Z</updated>
+    
+    
+    <summary type="html">&lt;h1 id=&quot;高级事件&quot;&gt;高级事件&lt;/h1&gt;
+&lt;h2 id=&quot;注册事件&quot;&gt;注册事件&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;给元素添加事件成为注册事件或者绑定事件&lt;/li&gt;
+&lt;li&gt;&lt;h3 id=&quot;传统方式和方法监听注册方式&quot;&gt;传统方式和方法监听注册方式&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;h4 id=&quot;传统注册&quot;&gt;传统注册&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;利用 on 开头的事件 onclick&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;pre class=&quot;line-numbers language-html&quot; data-language=&quot;html&quot;&gt;&lt;code class=&quot;language-html&quot;&gt;&amp;lt;button onclick = alert(&quot;hi~&quot;)&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;button&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span aria-hidden=&quot;true&quot; class=&quot;line-numbers-rows&quot;&gt;&lt;span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/p&gt;
+&lt;p&gt;&lt;pre class=&quot;line-numbers language-javascript&quot; data-language=&quot;javascript&quot;&gt;&lt;code class=&quot;language-javascript&quot;&gt;btn&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function-variable function&quot;&gt;onclick&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;function&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;#123;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;#125;&lt;/span&gt;&lt;span aria-hidden=&quot;true&quot; class=&quot;line-numbers-rows&quot;&gt;&lt;span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;特点：注册事件的唯一性&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;同一元素同一事件只能设置一个处理函数，最后注册的处理函数将会覆盖前面注册的处理函数&lt;/p&gt;</summary>
+    
+    
+    
+    
+    <category term="JavaScript" scheme="https://www.zepoch.cc/tags/JavaScript/"/>
+    
+    <category term="BOM" scheme="https://www.zepoch.cc/tags/BOM/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>关于 API 与 DOM 的理解</title>
+    <link href="https://www.zepoch.cc/2022/1979900830.html"/>
+    <id>https://www.zepoch.cc/2022/1979900830.html</id>
+    <published>2022-01-03T06:13:29.000Z</published>
+    <updated>2022-01-03T06:45:57.981Z</updated>
+    
+    
+    <summary type="html">&lt;h1 id=&quot;关于-api&quot;&gt;关于 API&lt;/h1&gt;
+&lt;h2 id=&quot;api&quot;&gt;API&lt;/h2&gt;
+&lt;p&gt;Application Programming Interface，
+应用程序编程接口，是一些预先定于的函数，目的是提供应用程序与开发人员基于某硬件或软件得以访问一组例程的能力，而又无需访问源码，或理解内部工作机制的细节。&lt;/p&gt;
+&lt;p&gt;API是给程序员提供的某种工具，以便能更轻松的实现想要完成的功能&lt;/p&gt;
+&lt;h2 id=&quot;web-api&quot;&gt;WEB API&lt;/h2&gt;
+&lt;p&gt;是浏览器提供的一套操作浏览器功能和页面元素的API（BOM和DOM），MDN API:
+https://developer.mozilla.org/zh-CN/docs/Web/API&lt;/p&gt;</summary>
+    
+    
+    
+    
+    <category term="JavaScript" scheme="https://www.zepoch.cc/tags/JavaScript/"/>
+    
+    <category term="DOM" scheme="https://www.zepoch.cc/tags/DOM/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>我的星座分析</title>
+    <link href="https://www.zepoch.cc/2021/1421664595.html"/>
+    <id>https://www.zepoch.cc/2021/1421664595.html</id>
+    <published>2021-12-03T15:54:31.000Z</published>
+    <updated>2021-12-03T16:01:08.005Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;你对自己的认知其实没别人说那么的感性，因为自己干很多事情都有目的性，所以你潜意识认为一切的感性都是建立在理性的基础之上的，但其实并没有这么简单，你潜意识里的理性，其实也是建立在更深的一层感性的基础上，也就是第三层，一般你对自己的了解只停留在第一层，也就是认为自己是一个超级感性的人。&lt;/p&gt;
+&lt;p&gt;比如，你见了一个很好看的人，非常心动，一会儿的时间就脑补了和他的一生，然后自己沉浸在自己的世界里感性，这是第一层的感性。&lt;/p&gt;
+&lt;p&gt;随后就开始在现实中去根据自己刚刚幻想完后的余温再去想要做什么，要让自己变成什么样来去达到自己之前幻想的一个目的，这个过程就是你对自己理性方面的认知，虽然自己会代入真感情到里面去，但有的你会以对自己的了解然后明确这是一份站在理性基础上的一份感性，也就是第二层。&lt;/p&gt;
+&lt;p&gt;</summary>
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>前端代码规范(1)</title>
+    <link href="https://www.zepoch.cc/2021/4204481673.html"/>
+    <id>https://www.zepoch.cc/2021/4204481673.html</id>
+    <published>2021-09-24T16:24:25.000Z</published>
+    <updated>2021-09-24T16:31:05.966Z</updated>
+    
+    
+    <summary type="html">&lt;h1 id=&quot;代码规范&quot;&gt;代码规范&lt;/h1&gt;
+&lt;h2 id=&quot;概述&quot;&gt;1. 概述&lt;/h2&gt;
+&lt;p&gt;欢迎使用品优购代码规范，
+这个是我借鉴京东前端代码规范，组织的品优购内部规范。旨在增强团队开发协作、提高代码质量和打造开发基石的编码规范，&lt;/p&gt;
+&lt;p&gt;以下规范是团队基本约定的内容，必须严格遵循。&lt;/p&gt;</summary>
+    
+    
+    
+    
+    <category term="前端" scheme="https://www.zepoch.cc/tags/%E5%89%8D%E7%AB%AF/"/>
+    
+    <category term="HTML" scheme="https://www.zepoch.cc/tags/HTML/"/>
+    
+    <category term="CSS" scheme="https://www.zepoch.cc/tags/CSS/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>不要死，也不要孤独的生活</title>
+    <link href="https://www.zepoch.cc/2021/3084145281.html"/>
+    <id>https://www.zepoch.cc/2021/3084145281.html</id>
+    <published>2021-09-22T04:36:18.000Z</published>
+    <updated>2021-09-22T04:39:56.680Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;打开新闻首页，密密麻麻的标题，独唱团大卖了，北京公交自燃了，贾宏声跳楼了。&lt;/p&gt;
+&lt;p&gt;贾宏声是谁？这名字似乎听过，然而完全没印象了。点开新闻，说是周迅前男友，一博客说他从楼下跳下，砸坏了一辆车，口气好象很心痛那车。另一博客开始呼吁社会关心明星心理健康……&lt;/p&gt;
+&lt;p&gt;还是不知道贾宏声是谁，也不想知道。每天死的人太多了，我关心不过来。&lt;/p&gt;</summary>
+    
+    
+    
+    
+    <category term="影评" scheme="https://www.zepoch.cc/tags/%E5%BD%B1%E8%AF%84/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>日记（4）</title>
+    <link href="https://www.zepoch.cc/2021/1842364004.html"/>
+    <id>https://www.zepoch.cc/2021/1842364004.html</id>
+    <published>2021-09-20T16:04:00.000Z</published>
+    <updated>2022-03-19T17:05:15.584Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;呕吼，突然就过去了一个月，上一次更新博客还是上一次（确实）。那就回顾一下这个月做了些什么、发生了些什么吧。&lt;/p&gt;
+&lt;p&gt;八月底大概就是和辅导员谈话、迎新相关的事务了，考研呢也是磨磨蹭蹭的没怎么放在心上（虽然现在看来不用当时甚至都不用管考研的事情）。&lt;/p&gt;</summary>
+    
+    
+    
+    
+    <category term="生活" scheme="https://www.zepoch.cc/tags/%E7%94%9F%E6%B4%BB/"/>
+    
+    <category term="日记" scheme="https://www.zepoch.cc/tags/%E6%97%A5%E8%AE%B0/"/>
+    
+    <category term="考研" scheme="https://www.zepoch.cc/tags/%E8%80%83%E7%A0%94/"/>
+    
+    <category term="摸鱼" scheme="https://www.zepoch.cc/tags/%E6%91%B8%E9%B1%BC/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>日记（3）</title>
+    <link href="https://www.zepoch.cc/2021/4026992349.html"/>
+    <id>https://www.zepoch.cc/2021/4026992349.html</id>
+    <published>2021-08-20T13:21:13.000Z</published>
+    <updated>2022-03-19T17:05:57.071Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;本来呢，暑假的计划是要读习的，奈何之前的毛选一还没读完，便是摸摸索索地读了毛选一，但也读的并不是很多，最重要地实践论和矛盾论倒是还没有看。&lt;/p&gt;
+&lt;p&gt;这毛选读起来是真的有意思，很多东西，修修改改，放到现在，依旧是可以用的，对于中国社会各阶层地分析，将近一百年过去了，中国的阶层中，也就是文中的“地主阶级和买办阶级”换了一种形式存在了下来，有人称其为“人民富豪”之类的。&lt;/p&gt;</summary>
+    
+    
+    
+    
+    <category term="毛选" scheme="https://www.zepoch.cc/tags/%E6%AF%9B%E9%80%89/"/>
+    
+    <category term="日记" scheme="https://www.zepoch.cc/tags/%E6%97%A5%E8%AE%B0/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hexo Next 友链配置</title>
+    <link href="https://www.zepoch.cc/2021/851229289.html"/>
+    <id>https://www.zepoch.cc/2021/851229289.html</id>
+    <published>2021-08-11T16:19:02.000Z</published>
+    <updated>2022-03-10T03:50:11.611Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;在进行配置 Hexo Next
+的友情链接的时候遇到了一些麻烦，特此进行记录如何进行 Hexo Next
+友链的配置。&lt;/p&gt;</summary>
+    
+    
+    
+    
+    <category term="Hexo" scheme="https://www.zepoch.cc/tags/Hexo/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>日记（2）</title>
+    <link href="https://www.zepoch.cc/2021/1220239800.html"/>
+    <id>https://www.zepoch.cc/2021/1220239800.html</id>
+    <published>2021-08-11T14:33:42.000Z</published>
+    <updated>2022-03-19T17:05:27.209Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;早上八点，起床，下了床墨迹了一会儿，醒醒了脑子，再一看时间，已经八点四十了，呕吼，穿上袜子穿上鞋，刷个牙，洗把脸，再抹一曾润肤乳，完事。&lt;/p&gt;
+&lt;p&gt;九点，下楼去食堂吃饭，磨磨唧唧到食堂又是五分钟后了，所幸还有饭，一个鸡蛋一个大饼一杯豆浆，肉蛋奶都有了，吃完饭回到寝室就是九点四十了。&lt;/p&gt;</summary>
+    
+    
+    
+    
+    <category term="生活" scheme="https://www.zepoch.cc/tags/%E7%94%9F%E6%B4%BB/"/>
+    
+    <category term="日记" scheme="https://www.zepoch.cc/tags/%E6%97%A5%E8%AE%B0/"/>
+    
+    <category term="考研日记" scheme="https://www.zepoch.cc/tags/%E8%80%83%E7%A0%94%E6%97%A5%E8%AE%B0/"/>
+    
+  </entry>
+  
+</feed>
